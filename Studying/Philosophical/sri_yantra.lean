@@ -98,7 +98,7 @@ lemma max_intersection_count
   (p₁ p₂ : Path P) :
   Set.card (p₁.range ∩ p₂.range) ≤ 54 := by
   -- Proof of maximum intersection points
-  sorry -- Complex combinatorial proof omitted for brevity
+  sorry
 
 /-- Main theorems about pathway properties --/
 theorem shakti_pathway_intersections
@@ -110,7 +110,7 @@ theorem shakti_pathway_intersections
     ∀ p₁ p₂ ∈ paths, p₁ ≠ p₂ → 
       ∃ x ∈ intersection_points, x ∈ p₁.path.range ∩ p₂.path.range := by
   -- Construction of intersection points
-  sorry -- Complex geometric construction omitted for brevity
+  sorry
 
 theorem shakti_bindu_flow
   {P : Type*} [MetricSpace P] [NormedAddTorsor ℝ² P]
@@ -121,7 +121,7 @@ theorem shakti_bindu_flow
     dist bindu p.start = r ∧
     p.path.range ⊆ ball bindu r := by
   -- Proof of radial flow properties
-  sorry -- Complex analysis proof omitted for brevity
+  sorry
 
 theorem shakti_mandala_structure
   {P : Type*} [MetricSpace P] [NormedAddTorsor ℝ² P]
@@ -132,7 +132,7 @@ theorem shakti_mandala_structure
     ∀ p ∈ paths, ∃ c ∈ centers, r ∈ radii,
       p.path.range ⊆ sphere c r := by
   -- Construction of mandala structure
-  sorry -- Complex geometric construction omitted for brevity
+  sorry
 
 /-- The complete unified theorem --/
 theorem sri_yantra_complete_properties
