@@ -1,1 +1,1 @@
-# Leon-theorem-of-Sri-Yantra
+# Leon-theorems
